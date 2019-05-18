@@ -12,3 +12,9 @@ Code quality :
 
 [![Build Status](https://travis-ci.com/IngeniozIT/psr16-cache.svg?branch=master)](https://travis-ci.com/IngeniozIT/psr16-cache)
 [![Code Coverage](https://codecov.io/gh/IngeniozIT/psr16-cache/branch/master/graph/badge.svg)](https://codecov.io/gh/IngeniozIT/psr16-cache)
+
+# Installation
+
+```sh
+composer require ingenioz-it/psr16
+```
