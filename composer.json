@@ -1,8 +1,9 @@
 {
     "name": "ingenioz-it/psr16",
+    "type": "library",
     "description": "PSR-16 : Simple Cache",
     "keywords": ["PSR", "psr-16", "Simple Cache", "Cache"],
-    "type": "library",
+    "homepage": "https://github.com/IngeniozIT/psr16-cache",
     "license": "MIT",
     "authors": [
         {
