@@ -12,7 +12,7 @@ use Psr\SimpleCache\InvalidArgumentException;
 /**
  * @coversDefaultClass \IngeniozIT\Psr16\Cache;
  */
-class Psr16CacheTest extends TestCase
+class CacheTest extends TestCase
 {
     protected static $tmpDir;
 
@@ -28,7 +28,7 @@ class Psr16CacheTest extends TestCase
         }
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         $it = new \RecursiveDirectoryIterator(self::$tmpDir, \RecursiveDirectoryIterator::SKIP_DOTS);
         $files = new \RecursiveIteratorIterator(
